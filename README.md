@@ -1,2 +1,2 @@
-# Gesti-nDeFincaAgricola-TUI
+# GestionDeFincaAgricola-TUI
 Aplicación Text User Interface (TUI) que simula la gestión de una finca agrícola. Desarrollada con Haskell
