@@ -1,0 +1,34 @@
+{
+    "project": "Gestión de Finca Agrícola TUI",
+    "tech": [
+        "Haskell (GHC 9.4.8)",
+        "Cabal 3.0",
+        "ANSI Escape Codes (UI)",
+        "Data.Time (Calendar Logic)",
+        "System.Directory (Persistence)"
+    ],
+    "features": [
+        "Premium ANSI TUI with ASCII Banners and Box-Drawing Borders",
+        "Secure Worker Authentication System by ID",
+        "Dynamic CSV-based Tool Inventory Management",
+        "Intelligent Plot Availability & Conflict Detection Engine",
+        "Automated Harvest Efficiency Tracking (Sub/Over production)",
+        "Advanced Statistics: Top Sales, Volume & Worker Performance",
+        "Zero-Dependency Persistence using Haskell Serialization (Show/Read)"
+    ],
+    "stack": {
+        "language": "Haskell",
+        "framework": "Native (Functionally Pure Core)",
+        "tools": [
+            "Cabal",
+            "GHC",
+            "Standard Libraries (Time, Directory)"
+        ],
+        "database": "farm_data.txt (Local Text-Based Persistence)"
+    },
+    "screenshots": [],
+    "description": {
+        "es": "Sistema avanzado de gestión para operaciones agrícolas con una interfaz de terminal premium. Combina un núcleo lógico puramente funcional con validación de conflictos de fechas, importación de herramientas via CSV y estadísticas de rendimiento detalladas.",
+        "en": "Advanced management system for agricultural operations with a premium TUI. Combines a purely functional core with date conflict validation, CSV tool import, and detailed performance statistics."
+    }
+}
