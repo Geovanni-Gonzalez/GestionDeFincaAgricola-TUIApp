@@ -1,34 +1,54 @@
 {
-    "project": "Gestión de Finca Agrícola TUI",
-    "tech": [
-        "Haskell (GHC 9.4.8)",
-        "Cabal 3.0",
-        "ANSI Escape Codes (UI)",
-        "Data.Time (Calendar Logic)",
-        "System.Directory (Persistence)"
-    ],
-    "features": [
-        "Premium ANSI TUI with ASCII Banners and Box-Drawing Borders",
-        "Secure Worker Authentication System by ID",
-        "Dynamic CSV-based Tool Inventory Management",
-        "Intelligent Plot Availability & Conflict Detection Engine",
-        "Automated Harvest Efficiency Tracking (Sub/Over production)",
-        "Advanced Statistics: Top Sales, Volume & Worker Performance",
-        "Zero-Dependency Persistence using Haskell Serialization (Show/Read)"
-    ],
-    "stack": {
-        "language": "Haskell",
-        "framework": "Native (Functionally Pure Core)",
-        "tools": [
-            "Cabal",
-            "GHC",
-            "Standard Libraries (Time, Directory)"
+    "en": {
+        "tech": [
+            "Haskell (GHC)",
+            "ANSI TUI",
+            "CSV Parsing",
+            "Functional Programming"
         ],
-        "database": "farm_data.txt (Local Text-Based Persistence)"
+        "features": [
+            "Premium ANSI TUI with box-drawing UI elements",
+            "Secure authentication and role-based access logic",
+            "Dynamic CSV-based tool inventory management",
+            "Intelligent plot availability & conflict detection engine",
+            "Automated harvest efficiency and worker performance tracking"
+        ],
+        "stack": {
+            "language": "Haskell",
+            "framework": "Native Purely Functional",
+            "tools": [
+                "Cabal",
+                "GHC"
+            ],
+            "database": "Text-Based Hierarchy (.txt)"
+        },
+        "screenshots": [],
+        "description": "An advanced agricultural ERP system that brings enterprise-level management to the terminal. Written in purely functional Haskell, it ensures side-effect-free logic for critical operations like date scheduling and plot availability analysis. The system features a robust CSV integration for large-scale tool imports, an intelligent conflict-detection engine for land allocation, and a premium ANSI-styled interface that transforms a standard console into a professional business workstation."
     },
-    "screenshots": [],
-    "description": {
-        "es": "Sistema avanzado de gestión para operaciones agrícolas con una interfaz de terminal premium. Combina un núcleo lógico puramente funcional con validación de conflictos de fechas, importación de herramientas via CSV y estadísticas de rendimiento detalladas.",
-        "en": "Advanced management system for agricultural operations with a premium TUI. Combines a purely functional core with date conflict validation, CSV tool import, and detailed performance statistics."
+    "es": {
+        "tech": [
+            "Haskell (GHC)",
+            "Interfaz ANSI TUI",
+            "Procesamiento CSV",
+            "Programación Funcional"
+        ],
+        "features": [
+            "Interfaz TUI Premium con elementos de dibujo de cajas",
+            "Autenticación segura y lógica de acceso por roles",
+            "Gestión de inventario de herramientas mediante CSV dinámico",
+            "Motor inteligente de disponibilidad de parcelas y detección de conflictos",
+            "Seguimiento automatizado de eficiencia de cosecha y desempeño de trabajadores"
+        ],
+        "stack": {
+            "language": "Haskell",
+            "framework": "Nativo Puramente Funcional",
+            "tools": [
+                "Cabal",
+                "GHC"
+            ],
+            "database": "Jerarquía de Texto Plano (.txt)"
+        },
+        "screenshots": [],
+        "description": "Un robusto sistema ERP agrícola que lleva la gestión de nivel empresarial a la terminal. Escrito en Haskell puramente funcional, garantiza una lógica libre de efectos secundarios para operaciones críticas como la programación de fechas y el análisis de disponibilidad de parcelas. El sistema cuenta con una integración de CSV para importaciones de herramientas a gran escala, un motor inteligente de detección de conflictos para la asignación de tierras y una interfaz ANSI premium que transforma la consola en una estación de trabajo profesional."
     }
 }
