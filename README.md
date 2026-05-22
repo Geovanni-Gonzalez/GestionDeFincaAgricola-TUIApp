@@ -1,41 +1,70 @@
-# Gestión de Finca Agrícola - TUI App
+﻿# Gestión de Finca Agricola TUI App
 
-Sistema de gestión para operaciones agrícolas desarrollado en Haskell bajo el paradigma funcional.
+## Descripción
+Aplicación de consola en Haskell para gestionar información de una finca agricola usando archivos locales.
 
-## Requisitos
+## Objetivo
+Practicar programación funcional aplicada a gestión con persistencia simple e interfaz textual.
 
-- GHC (8.10+) o GHCup
-- Cabal (3.x+)
+## Tecnologías utilizadas
+- Haskell
+- Cabal
+- Terminal
+- Archivos .txt/.csv
 
-## Instalación y Compilación
+## Funcionalidades principales
+- Menu interactivo
+- Persistencia en farm_data.txt y tools.csv
+- Tipos de dominio
+- UI/lógica/archivos separados
 
-1. Clona el repositorio:
+## Mi rol
+Modelé datos, implementé operaciones y conecté interfaz textual con persistencia.
 
-   ```bash
-   git clone https://github.com/geova/GestionDeFincaAgricola-TUIApp.git
-   ```
+## Aprendizajes clave
+- Tipos y módulos Haskell
+- Archivos
+- Menus de consola
+- Separación funcional
 
-2. Compila el proyecto:
-
-   ```bash
-   cabal build
-   ```
-
-## Ejecución
-
-Inicia la aplicación con:
-
+## Instalación y ejecución
 ```bash
-cabal run finca-agricola
+cd GestionDeFincaAgricola-TUIApp
+cabal build
+cabal run
 ```
 
-## Funcionalidades Principales
+## Estructura del proyecto
+- app/Main.hs: entrada
+- src/Menu.hs y UIUtils.hs: UI
+- src/Logic.hs, Types.hs, Files.hs: dominio
+- farm_data.txt/tools.csv: datos
 
-- **Menú Operativo**: Registro de herramientas y parcelas (requiere login por cédula).
-- **Gestión de Cosechas**: Registro de producción con validación de disponibilidad de parcelas.
-- **Estadísticas**: Generación de reportes de volumen, ventas y rendimiento por trabajador.
-- **Persistencia**: Los datos se guardan automáticamente en `farm_data.txt`.
+## Capturas o demo
+![Captura principal](screenshots/principalImage.png)
 
-## Créditos
+## Estado del proyecto
+Proyecto académico funcional.
 
-Desarrollado para el curso de Lenguajes de Programación.
+## Valor técnico demostrado
+Demuestra uso practico de Haskell en gestión con modularidad.
+
+## Mejoras futuras
+- Eliminar compilados
+- Agregar validaciónes
+- Documentar formato de datos
+
+## Autor
+Geovanni González  
+Estudiante de Ingeniería en Computación  
+GitHub: [Geovanni-Gonzalez](https://github.com/Geovanni-Gonzalez)
+
+
+
+
+
+
+
+
+
+
