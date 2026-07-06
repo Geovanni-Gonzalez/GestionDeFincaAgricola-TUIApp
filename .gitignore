@@ -1,0 +1,30 @@
+# Haskell
+dist/
+dist-newstyle/
+.stack-work/
+.stack-root/
+**/.stack-root/
+*.hi
+*.o
+
+
+# Local agent/editor state
+.claude/
+CLAUDE.md
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak

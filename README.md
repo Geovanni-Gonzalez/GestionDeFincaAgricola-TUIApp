@@ -68,3 +68,4 @@ GitHub: [Geovanni-Gonzalez](https://github.com/Geovanni-Gonzalez)
 
 
 
+![CI](https://github.com/Geovanni-Gonzalez/GestionDeFincaAgricola-TUIApp/actions/workflows/ci.yml/badge.svg)
