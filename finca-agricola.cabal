@@ -15,3 +15,12 @@ executable finca-agricola
     hs-source-dirs:   src, app
     default-language: Haskell2010
     ghc-options:      -Wall
+
+test-suite finca-tests
+    type:             exitcode-stdio-1.0
+    main-is:          Spec.hs
+    other-modules:    Types, Logic
+    build-depends:    base ^>=4.17.2.1, time, hspec, QuickCheck
+    hs-source-dirs:   test, src
+    default-language: Haskell2010
+    ghc-options:      -Wall
