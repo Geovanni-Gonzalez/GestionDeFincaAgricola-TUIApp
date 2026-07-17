@@ -24,12 +24,7 @@ plotDailyStatus start end allPlots allHarvests =
 
 -- | Calculate Statistics
 
--- 1. Parcela con mayor volumen de cosecha.
-topPlotByVolume :: [Harvest] -> Maybe String
-topPlotByVolume [] = Nothing
-topPlotByVolume hs = Just $ hPlotId $ maximumBy (comparing (\h -> actualKg h)) hs 
--- Note: Re-implementing aggregation if needed, but for now simple top one
--- Actually, let's aggregate as requested:
+-- 1. Parcela con mayor volumen de cosecha (agregado por parcela).
 topPlotByVolumeAgg :: [Harvest] -> Maybe String
 topPlotByVolumeAgg [] = Nothing
 topPlotByVolumeAgg hs = Just $ fst $ maximumBy (comparing snd) aggregated
