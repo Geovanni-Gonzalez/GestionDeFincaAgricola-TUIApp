@@ -3,8 +3,8 @@ name:               finca-agricola
 version:            0.1.0.0
 license:            MIT
 license-file:       LICENSE
-author:             Antigravity
-maintainer:         antigravity@google.com
+author:             Geovanni González Aguilar
+maintainer:         geovanniga32@gmail.com
 extra-doc-files:    README.md
 build-type:         Simple
 

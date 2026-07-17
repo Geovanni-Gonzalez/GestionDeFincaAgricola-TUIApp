@@ -41,7 +41,7 @@ cabal run
 - farm_data.txt/tools.csv: datos
 
 ## Capturas o demo
-![Captura principal](screenshots/principalImage.png)
+![Captura principal](docs/img/principalImage.png)
 
 ## Estado del proyecto
 Proyecto académico funcional.
