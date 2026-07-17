@@ -14,8 +14,8 @@ Backlog priorizado. Impacto/Esfuerzo: Alto/Medio/Bajo.
 
 | # | Mejora | Impacto | Esfuerzo | Prioridad |
 |---|---|---|---|---|
-| 4 | Suite de tests para `Logic.hs` con HUnit + QuickCheck (propiedades de solapamiento de fechas son ideales para property testing) — subiría mucho el valor curricular del repo como evidencia funcional | Alto | Medio | P1 |
-| 5 | Ejecutar `cabal test` en CI una vez exista la suite | Medio | Bajo | P1 |
+| 4 | ✅ Aplicado: suite Hspec + QuickCheck (`test/Spec.hs`) cubriendo las 7 funciones puras de `Logic.hs`, incl. propiedades de solapamiento de fechas | Alto | Medio | P1 |
+| 5 | ✅ Aplicado: CI ejecuta `cabal test`. **Verificar la primera corrida de Actions** — la suite se escribió sin GHC local | Medio | Bajo | P1 |
 | 6 | Manejo de errores de parsing en `Files.hs` (hoy `read` puede lanzar excepción con datos corruptos) — `readMaybe` + `Either` | Medio | Bajo | P2 |
 
 ## Mejoras arquitectónicas
